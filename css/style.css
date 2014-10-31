@@ -16,14 +16,13 @@ html, body {
 }
 
 .image {
-	height: 300px;
+	margin: 10px;
 }
 
 .thumbnail {
 	padding: 20px;
 	background: #222;
 	height: 300px;
-	margin: 10px;
 	cursor: pointer;
 }
 
