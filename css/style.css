@@ -34,6 +34,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,0.8);
+	transition: all 400ms;
 }
 
 .full-image {
@@ -45,5 +46,6 @@ html, body {
 }
 
 .hidden {
-	display: none;
+	visibility: hidden;
+	opacity: 0;
 }
