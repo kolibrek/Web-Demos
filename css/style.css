@@ -6,3 +6,12 @@ html, body {
 	color: black;
 	background: lightgray;
 }
+
+ul {
+	margin: auto;
+	padding: 20px;
+	min-height: 200px;
+	width: 60%;
+	background: white;
+	border-bottom: solid 10px #EEE;
+}
