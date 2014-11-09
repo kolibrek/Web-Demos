@@ -7,6 +7,14 @@ html, body {
 	background: lightgray;
 }
 
+div {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: auto;
+	margin: 40px;
+}
+
 ul {
 	margin: auto;
 	padding: 20px;
@@ -14,4 +22,12 @@ ul {
 	width: 60%;
 	background: white;
 	border-bottom: solid 10px #EEE;
+}
+
+ul li {
+	padding: 20px;
+}
+
+a {
+	padding: 20px;
 }
