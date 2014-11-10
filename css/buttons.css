@@ -25,7 +25,7 @@ a {
 *** These are the fancier links. you can apply and even combine many of these to create the effect you want ***
 */
 .color-hover:hover {
-	color: red;
+	color: white;
 }
 
 .bg-hover:hover {
@@ -58,4 +58,46 @@ a {
 
 .sliding:hover:before {
 	transform: translateY(-100%);
+}
+
+.ripple {
+	background: white;
+	color: black;
+	z-index: 1;
+	outline: solid 0 white;
+}
+
+.ripple:hover {
+	animation: ripple 1s ease infinite;
+	-webkit-animation: ripple 1s ease infinite;
+}
+
+@keyframes ripple {
+	0% {
+		outline-offset: 0;
+		outline-width: 2px;
+		outline-color: rgba(255,255,255,0);
+	}
+	30% {
+		outline-color: rgba(255,255,255,0.5);
+	}
+	100% {
+		outline-offset: 40px;
+		outline-color: rgba(255,255,255,0)
+	}
+}
+
+@-webkit-keyframes ripple {
+	0% {
+		outline-offset: 0;
+		outline-width: 2px;
+		outline-color: rgba(255,255,255,0);
+	}
+	10% {
+		outline-color: rgba(255,255,255,0.5);
+	}
+	100% {
+		outline-offset: 20px;
+		outline-color: rgba(255,255,255,0)
+	}
 }

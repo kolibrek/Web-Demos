@@ -12,7 +12,6 @@ div {
 	flex-flow: row wrap;
 	justify-content: center;
 	width: auto;
-	margin: 40px;
 }
 
 ul {
